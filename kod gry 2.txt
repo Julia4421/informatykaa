@@ -1,0 +1,440 @@
+#include <iostream>
+
+using namespace std;
+
+struct hero {
+    int hp;
+    int dmg;
+    int ap;
+    int mana;
+    int lifesteal;
+    float attackSpeed;
+    int armor;
+    int magicResist;
+    float kryt;
+
+
+};
+
+struct enemy {
+    int hp;
+    int dmg;
+    int ap;
+    int mana;
+    int lifesteal;
+    float attackSpeed;
+    int armor;
+    int magicResist;
+    float kryt;
+};
+
+int main()
+{
+    srand(time(NULL));
+
+    hero Nidalee;
+    Nidalee.hp = 570;
+    Nidalee.mana = 275;
+    Nidalee.dmg = 57;
+    Nidalee.ap = 18;
+    Nidalee.lifesteal = 0;
+    Nidalee.attackSpeed = 0.64;
+    Nidalee.armor = 30;
+    Nidalee.magicResist = 34;
+    Nidalee.kryt = 0;
+
+    hero Warwick;
+    Warwick.hp = 630;
+    Warwick.mana = 280;
+    Warwick.dmg = 84;
+    Warwick.ap = 0;
+    Warwick.lifesteal = 0;
+    Warwick.attackSpeed = 0.64;
+    Warwick.armor = 39;
+    Warwick.magicResist = 32;
+    Warwick.kryt = 0;
+
+    hero Caitlyn;
+    Caitlyn.hp = 525;
+    Caitlyn.mana = 315;
+    Caitlyn.dmg = 79;
+    Caitlyn.ap = 0;
+    Caitlyn.lifesteal = 0;
+    Caitlyn.attackSpeed = 0.75;
+    Caitlyn.armor = 28;
+    Caitlyn.magicResist = 30;
+    Caitlyn.kryt = 0;
+
+    hero Lux;
+    Lux.hp = 515;
+    Lux.mana = 480;
+    Lux.dmg = 54;
+    Lux.ap = 26;
+    Lux.lifesteal = 0;
+    Lux.attackSpeed = 0.67;
+    Lux.armor = 19;
+    Lux.magicResist = 30;
+    Lux.kryt = 0;
+
+    hero Talon;
+    Talon.hp = 588;
+    Talon.mana = 377;
+    Talon.dmg = 79;
+    Talon.ap = 0;
+    Talon.lifesteal = 0;
+    Talon.attackSpeed = 0.63;
+    Talon.armor = 36;
+    Talon.magicResist = 39;
+    Talon.kryt = 0;
+
+    hero Chogath;
+    Chogath.hp = 669;
+    Chogath.mana = 270;
+    Chogath.dmg = 69;
+    Chogath.ap = 18;
+    Chogath.lifesteal = 0;
+    Chogath.attackSpeed = 0.63;
+    Chogath.armor = 38;
+    Chogath.magicResist = 32;
+    Chogath.kryt = 0;
+
+    hero Evelynn;
+    Evelynn.hp = 572;
+    Evelynn.mana = 315;
+    Evelynn.dmg = 61;
+    Evelynn.ap = 18;
+    Evelynn.lifesteal = 0;
+    Evelynn.attackSpeed = 0.67;
+    Evelynn.armor = 43;
+    Evelynn.magicResist = 32;
+    Evelynn.kryt = 0;
+
+    hero Annie;
+    Annie.hp = 524;
+    Annie.mana = 418;
+    Annie.dmg = 50;
+    Annie.ap = 18;
+    Annie.lifesteal = 0;
+    Annie.attackSpeed = 0.58;
+    Annie.armor = 25;
+    Annie.magicResist = 30;
+    Annie.kryt = 0;
+
+    hero Ezreal;
+    Ezreal.hp = 545;
+    Ezreal.mana = 450;
+    Ezreal.dmg = 72;
+    Ezreal.ap = 0;
+    Ezreal.lifesteal = 0;
+    Ezreal.attackSpeed = 0.69;
+    Ezreal.armor = 24;
+    Ezreal.magicResist = 30;
+    Ezreal.kryt = 0;
+
+    hero Soraka;
+    Soraka.hp = 535;
+    Soraka.mana = 425;
+    Soraka.dmg = 50;
+    Soraka.ap = 18;
+    Soraka.lifesteal = 0;
+    Soraka.attackSpeed = 0.63;
+    Soraka.armor = 38;
+    Soraka.magicResist = 30;
+    Soraka.kryt = 0;
+
+    enemy Krzewogrzbiet;
+    Krzewogrzbiet.hp = 1800;
+    Krzewogrzbiet.dmg = 80;
+    Krzewogrzbiet.ap = 0;
+    Krzewogrzbiet.attackSpeed = 0.60;
+    Krzewogrzbiet.armor = 20;
+    Krzewogrzbiet.magicResist = 0;
+    Krzewogrzbiet.kryt = 0;
+
+    enemy Straznik;
+    Straznik.hp = 2000;
+    Straznik.dmg = 73;
+    Straznik.ap = 0;
+    Straznik.attackSpeed = 0.49;
+    Straznik.armor = 20;
+    Straznik.magicResist = 0;
+    Straznik.kryt = 0;
+
+    enemy Ponurnik;
+    Ponurnik.hp = 1600;
+    Ponurnik.dmg = 90;
+    Ponurnik.ap = 0;
+    Ponurnik.attackSpeed = 0.63;
+    Ponurnik.armor = 15;
+    Ponurnik.magicResist = 5;
+    Ponurnik.kryt = 0;
+
+    enemy Brzytwodziob;
+    Brzytwodziob.hp = 250;
+    Brzytwodziob.dmg = 20;
+    Brzytwodziob.ap = 0;
+    Brzytwodziob.attackSpeed = 0.67;
+    Brzytwodziob.armor = 5;
+    Brzytwodziob.magicResist = 0;
+    Brzytwodziob.kryt = 0;
+
+    enemy Wilk;
+    Wilk.hp = 420;
+    Wilk.dmg = 16;
+    Wilk.ap = 0;
+    Wilk.attackSpeed = 0.63;
+    Wilk.armor = 6;
+    Wilk.magicResist = 0;
+    Wilk.kryt = 0;
+
+    enemy DuzyWilk;
+    DuzyWilk.hp = 1320;
+    DuzyWilk.dmg = 42;
+    DuzyWilk.ap = 0;
+    DuzyWilk.attackSpeed = 0.63;
+    DuzyWilk.armor = 9;
+    DuzyWilk.magicResist = 0;
+    DuzyWilk.kryt = 0;
+
+    enemy Herold;
+    DuzyWilk.hp = 9000;
+    DuzyWilk.dmg = 120;
+    DuzyWilk.ap = 0;
+    DuzyWilk.attackSpeed = 0.5;
+    DuzyWilk.armor = 60;
+    DuzyWilk.magicResist = 50;
+    DuzyWilk.kryt = 0;
+
+    enemy Baron;
+    Baron.hp = 10000;
+    Baron.dmg = 285;
+    Baron.ap = 0;
+    Baron.attackSpeed = 0.75;
+    Baron.armor = 120;
+    Baron.magicResist = 70;
+    Baron.kryt = 0;
+
+    enemy Krab; // zabicie go za to przywraca +250pkt zdrowia bohaterowi, ktory go zabije
+    Krab.hp = 750;
+    Krab.dmg = 20;
+    Krab.ap = 0;
+    Krab.attackSpeed = 0.64;
+    Krab.armor = 60;
+    Krab.magicResist = 60;
+    Krab.kryt = 0;
+
+    enemy Skalniak;
+    Skalniak.hp = 1440;
+    Skalniak.dmg = 73;
+    Skalniak.ap = 0;
+    Skalniak.attackSpeed = 0.61;
+    Skalniak.armor = 12;
+    Skalniak.magicResist = 10;
+
+
+    cout << "Witaj w grze RPG" << endl;
+    cout << "Wybierz swoja postac" << endl;
+
+    cout << "Dostepne postacie: " << endl;
+    cout << "1. Nidalee" << endl;
+    cout << "2. Warwick" << endl;
+    cout << "3. Lux" << endl;
+    cout << "4. Caitlyn" << endl;
+    cout << "5. Chogath" << endl;
+    cout << "6. Soraka" << endl;
+    cout << "7. Evelynn" << endl;
+    cout << "8. Talon" << endl;
+    cout << "9. Annie" << endl;
+    cout << "10. Ezreal" << endl;
+
+    int odpowiedz;
+
+    cout << "Wprowadz nr bohatera, ktorego wybrales: ";
+    cin >> odpowiedz;
+
+    cout << " " << endl;
+    cout << " " << endl;
+
+    switch (odpowiedz)
+    {
+    case 1:
+    {
+        cout << "Wybrano Nidalee! " << endl;
+        cout << "Statystyki bohatera: " << endl;
+
+        cout << " " << endl;
+
+        cout << "HP: " << Nidalee.hp << endl;
+        cout << "Mana: " << Nidalee.mana << endl;
+        cout << "Damage: " << Nidalee.dmg << endl;
+        cout << "AP: " << Nidalee.ap << endl;
+        cout << "Attack Speed: " << Nidalee.attackSpeed << endl;
+        cout << "Armor: " << Nidalee.armor << endl;
+        cout << "Magic Resist:  " << Nidalee.magicResist << endl;
+        break;
+    }
+    case 2:
+    {
+        cout << "Wybrano Warwicka! " << endl;
+        cout << "Statystyki bohatera: " << endl;
+
+        cout << " " << endl;
+
+        cout << "HP: " << Warwick.hp << endl;
+        cout << "Mana: " << Warwick.mana << endl;
+        cout << "Damage: " << Warwick.dmg << endl;
+        cout << "AP: " << Warwick.ap << endl;
+        cout << "Attack Speed: " << Warwick.attackSpeed << endl;
+        cout << "Armor: " << Warwick.armor << endl;
+        cout << "Magic Resist:  " << Warwick.magicResist << endl;
+        break;
+    }
+    case 3:
+    {
+        cout << "Wybrano Lux! " << endl;
+        cout << "Statystyki bohatera: " << endl;
+
+        cout << " " << endl;
+
+        cout << "HP: " << Lux.hp << endl;
+        cout << "Mana: " << Lux.mana << endl;
+        cout << "Damage: " << Lux.dmg << endl;
+        cout << "AP: " << Lux.ap << endl;
+        cout << "Attack Speed: " << Lux.attackSpeed << endl;
+        cout << "Armor: " << Lux.armor << endl;
+        cout << "Magic Resist:  " << Lux.magicResist << endl;
+        break;
+    }
+    case 4:
+    {
+        cout << "Wybrano Caitlyn! " << endl;
+        cout << "Statystyki bohatera: " << endl;
+
+        cout << " " << endl;
+
+        cout << "HP: " << Caitlyn.hp << endl;
+        cout << "Mana: " << Caitlyn.mana << endl;
+        cout << "Damage: " << Caitlyn.dmg << endl;
+        cout << "AP: " << Caitlyn.ap << endl;
+        cout << "Attack Speed: " << Caitlyn.attackSpeed << endl;
+        cout << "Armor: " << Caitlyn.armor << endl;
+        cout << "Magic Resist:  " << Caitlyn.magicResist << endl;
+        break;
+    }
+    case 5:
+    {
+        cout << "Wybrano Cho'gatha! " << endl;
+        cout << "Statystyki bohatera: " << endl;
+
+        cout << " " << endl;
+
+        cout << "HP: " << Chogath.hp << endl;
+        cout << "Mana: " << Chogath.mana << endl;
+        cout << "Damage: " << Chogath.dmg << endl;
+        cout << "AP: " << Chogath.ap << endl;
+        cout << "Attack Speed: " << Chogath.attackSpeed << endl;
+        cout << "Armor: " << Chogath.armor << endl;
+        cout << "Magic Resist:  " << Chogath.magicResist << endl;
+        break;
+    }
+    case 6:
+    {
+        cout << "Wybrano Sorake! " << endl;
+        cout << "Statystyki bohatera: " << endl;
+
+        cout << " " << endl;
+
+        cout << "HP: " << Soraka.hp << endl;
+        cout << "Mana: " << Soraka.mana << endl;
+        cout << "Damage: " << Soraka.dmg << endl;
+        cout << "AP: " << Soraka.ap << endl;
+        cout << "Attack Speed: " << Soraka.attackSpeed << endl;
+        cout << "Armor: " << Soraka.armor << endl;
+        cout << "Magic Resist:  " << Soraka.magicResist << endl;
+        break;
+    }
+    case 7:
+    {
+        cout << "Wybrano Evelynn! " << endl;
+        cout << "Statystyki bohatera: " << endl;
+
+        cout << " " << endl;
+
+        cout << "HP: " << Evelynn.hp << endl;
+        cout << "Mana: " << Evelynn.mana << endl;
+        cout << "Damage: " << Evelynn.dmg << endl;
+        cout << "AP: " << Evelynn.ap << endl;
+        cout << "Attack Speed: " << Evelynn.attackSpeed << endl;
+        cout << "Armor: " << Evelynn.armor << endl;
+        cout << "Magic Resist:  " << Evelynn.magicResist << endl;
+        break;
+    }
+    case 8:
+    {
+        cout << "Wybrano Talon! " << endl;
+        cout << "Statystyki bohatera: " << endl;
+
+        cout << " " << endl;
+
+        cout << "HP: " << Talon.hp << endl;
+        cout << "Mana: " << Talon.mana << endl;
+        cout << "Damage: " << Talon.dmg << endl;
+        cout << "AP: " << Talon.ap << endl;
+        cout << "Attack Speed: " << Talon.attackSpeed << endl;
+        cout << "Armor: " << Talon.armor << endl;
+        cout << "Magic Resist:  " << Talon.magicResist << endl;
+        break;
+    }
+
+    case 9:
+    {
+        cout << "Wybrano Annie! " << endl;
+        cout << "Statystyki bohatera: " << endl;
+
+        cout << " " << endl;
+
+        cout << "HP: " << Annie.hp << endl;
+        cout << "Mana: " << Annie.mana << endl;
+        cout << "Damage: " << Annie.dmg << endl;
+        cout << "AP: " << Annie.ap << endl;
+        cout << "Attack Speed: " << Annie.attackSpeed << endl;
+        cout << "Armor: " << Annie.armor << endl;
+        cout << "Magic Resist:  " << Annie.magicResist << endl;
+        break;
+    }
+
+    case 10:
+    {
+        cout << "Wybrano Ezreal! " << endl;
+        cout << "Statystyki bohatera: " << endl;
+
+        cout << " " << endl;
+
+        cout << "HP: " << Ezreal.hp << endl;
+        cout << "Mana: " << Ezreal.mana << endl;
+        cout << "Damage: " << Ezreal.dmg << endl;
+        cout << "AP: " << Ezreal.ap << endl;
+        cout << "Attack Speed: " << Ezreal.attackSpeed << endl;
+        cout << "Armor: " << Ezreal.armor << endl;
+        cout << "Magic Resist:  " << Ezreal.magicResist << endl;
+        break;
+    }
+    default:
+    {
+        cout << "Nie wybrano bohatera! " << endl;
+    }
+
+    }
+
+    // fabula na  +
+
+    // system walk z teams
+
+    // boss na druga 6
+
+
+
+}
+
+
+

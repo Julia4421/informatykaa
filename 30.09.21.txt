@@ -1,0 +1,60 @@
+/*#include <iostream>
+using namespace std;
+
+int dodawanie(int a, int b) 
+{
+    return a + b;
+}
+
+int odejmowanie(int a, int b)
+{
+    return a - b;
+}
+
+
+int mnożenie(int a, int b)
+{
+    return a * b;
+}
+
+
+int dzielenie(int a, int b)
+{
+    return a / b;
+}
+
+int main()
+{
+    cout << "wynik dodawania 6 i 6: "<< dodawanie(6, 6) << endl;
+    cout << "wynik odejmowania 12 - 9: " << odejmowanie(12, 9) << endl;
+    cout << "wynik mnożenia 23 * 3: " << mnożenie(23, 3) << endl;
+    cout << "wynik dzielenia 50 i 8: " << dzielenie(50, 8) << endl;
+}
+*/
+
+/*#include <iostream>
+using namespace std;
+
+float trapez(int a, int b, int c) 
+{
+    return (a + b) * c / 2;
+}
+
+float trójkąt(int a, int b)
+{
+    return a * b / 2;
+}
+
+float prostokąt(int a, int b)
+{
+    return a * b;
+}
+
+int main()
+{
+    cout << "Pole trapezu wynosi: " << trapez(12, 3, 2) << endl;
+    cout << "Pole trojkatu wynosi: " << trójkąt(12, 3) << endl;
+    cout << "Pole prostokatu wynosi: " << prostokąt(6, 2) << endl;
+}
+*/
+
