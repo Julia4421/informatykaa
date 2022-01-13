@@ -1,0 +1,91 @@
+#include <iostream>
+
+using namespace std;
+
+struct Pracownik {
+
+    string imie;
+    string nazwisko;
+    string stanowisko;
+    float pensja_brutto;
+
+
+};
+
+int main()
+{
+
+    Pracownik Pracownicy[10];
+    int b = 0;
+    int warunek1;
+    int warunek = 1;
+    int pracownicy = 0;
+
+    do
+    {
+        cout << "MENU: " << endl;
+        cout << "1. Dodaj Pracownika " << endl;
+        cout << "2. Usun Pracownika " << endl;
+        cout << "3. Wyswietl Pracownikow " << endl;
+        cout << "4. Edytuj Stanowisko " << endl;
+
+        cout << " " << endl;
+
+        int wybor;
+
+        cout << "Wpisz liczbe: ";
+
+        cin >> wybor;
+
+        switch (wybor)
+        {
+        case 1:
+        {
+            do
+            {
+                cout << "Wprowadz imie swojego pracownika: ";
+                cin >> Pracownicy[b].imie;
+                cout << "Wprowadz nazwisko swojego pracownika: ";
+                cin >> Pracownicy[b].nazwisko;
+                cout << "Wprowadz stanowisko swojego pracownika: ";
+                cin >> Pracownicy[b].stanowisko;
+                cout << "Wprowadz pensje brutto swojego pracownika: ";
+                cin >> Pracownicy[b].pensja_brutto;
+
+                b++;
+
+                cout << "Aby kontynuowac wcisnij 0, aby zakonczyc wcisnij 1" << endl;
+
+
+                cin >> warunek;
+
+            } while (warunek == 0);
+            break;
+        }
+        case 2:
+        {
+            for (int y = 1; y == 10; y++)
+            {
+                b = 0;
+                cout << "Aktualna tablica:" << endl;
+                cout << Pracownicy[b].imie << endl;
+                cout << Pracownicy[b].nazwisko << endl;
+                cout << Pracownicy[b].stanowisko << endl;
+                cout << Pracownicy[b].pensja_brutto << endl;
+                b++;
+            }
+            break;
+        }
+        default:
+        {
+            cout << "Podano bledna liczbe" << endl;
+            break;
+        }
+
+        }
+
+        cout << "Aby zakonczyc uzywanie menu kliknij 5, aby kontynuowac kliknij 0" << endl;
+        cin >> warunek1;
+
+    } while (warunek1 == 0);
+}
