@@ -1,0 +1,13 @@
+import matplotlib.pyplot as plt
+import numpy as np
+
+
+y = np.array([24.1,25.7,14.8,11.5,10.3,4.9,8.6])
+mylabels = ["CDS/CSU", "SPD", "Greens", "FDP", "AFD", "Left Party", "Others"]
+
+
+plt.pie(y,
+labels = mylabels,
+autopct = '%1.1f%%')
+
+plt.show() 

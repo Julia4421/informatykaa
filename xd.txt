@@ -1,0 +1,11 @@
+import numpy as np
+import random
+
+np.random.seed()
+kolumn = input("Podaj liczbe kolumn: ")
+print("Wybrana liczba to {kolumn}".format(kolumn=kolumn))
+wiersz = input("Podaj liczbe wierszy: ")
+print("Wybrana liczba to {wiersz}".format(wiersz=wiersz))
+
+los = np.random.randint(10)
+print(los)
