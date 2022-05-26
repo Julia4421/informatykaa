@@ -1,0 +1,210 @@
+import re
+
+txt = """Suwerenny Rycerski Zakon Szpitalników Świętego Jana, z Jerozolimy, z Rodos i z Malty (łac. Supremus Militaris Ordo Hospitalarius Sancti Ioannis Hierosolymitani Rhodiensis et Melitensis, pot. szpitalnicy, joannici, kawalerowie maltańscy) – katolicki zakon rycerski.Zakon wywodzi swój rodowód bezpośrednio ze średniowiecznych bractw i zakonów rycerskich, powstałych na Bliskim Wschodzie na fali pierwszych wypraw krzyżowych. Odegrał znaczącą rolę w historii Europy, głównie ze względu na swój – istotny kiedyś – potencjał militarny i znakomitą flotę wojenną. Joannici położyli także olbrzymie zasługi w dziele organizacji i prowadzenia pierwszych średniowiecznych szpitali na kontynencie europejskim.
+Zakon uznawany jest przez szereg państw za suwerenny podmiot prawa międzynarodowego. Jego nieruchomości: dwie w Rzymie i jedna na Malcie mają status eksterytorialności. Zakon jest stroną umów międzynarodowych, utrzymuje stosunki dyplomatyczne, bierze udział w życiu dyplomatycznym, konferencjach międzynarodowych, działa jako obserwator w różnych organizacjach (ONZ, UNESCO, UNICEF, Unia Łacińska). Jednak nie można mówić o wyłącznym obywatelstwie zakonu – istnieje ono obok macierzystego.
+Zakon wydaje własne znaczki pocztowe, własne tablice rejestracyjne dla samochodów służbowych (o kodzie SMOM); ma też swoją walutę, którą jest scudo (1 scudo = 12 tari = 240 grani = 1440 piccoli ).
+Historia zakonu
+Warownia Margat – kwatera główna joannitów
+Początki w Palestynie
+Zamek Krak des Chevaliers w Syrii
+Zakon powstał jeszcze przed I krucjatą – jego początki sięgają nieformalnego bractwa, zawiązanego przy szpitalu św. Jana Chrzciciela[1], który został założony przez mieszczan z włoskiego państewka Amalfi w 1070[2] roku. Było to bractwo zakonne pod wodzą charyzmatycznego, półlegendarnego, a dziś błogosławionego brata Gérarda. W czasie pierwszej krucjaty szpital okazał się bardzo przydatną instytucją; istniejące przy nim bractwo przekształciło się w zakon rycerski, który w 1113 roku został oficjalnie uznany przez papieża Paschalisa II. W odróżnieniu od Krzyżaków, zakon joannitów – podobnie jak templariuszy – miał od początku charakter międzynarodowy i przyjmowano do niego wszystkich szlachetnie urodzonych rycerzy katolickich, bez względu na ich narodowość.
+Władcy Królestwa Jerozolimskiego, powstałego na bazie sukcesów pierwszej krucjaty, nałożyli na joannitów – dla odciążenia jednostek liniowych – obowiązek strzeżenia bezpieczeństwa wewnętrznego w nowym państwie. Joannici rozpoczęli w tym czasie budowę całej sieci warowni i zamków na terenie Palestyny; wśród nich była ogromna warownia-szpital Margat, która stała się później oficjalną siedzibą zakonu. W 1144 roku Rajmund II, hrabia Trypolisu, oddał szpitalnikom zamek Krak des Chevaliers. Zakon uzyskał w tym czasie także szereg przywilejów i dóbr w całej chrześcijańskiej Europie, w której powstała sieć jego komandorii – również w Polsce.
+Cypr, Rodos i Malta
+Po upadku Jerozolimy joannici przenieśli swój główny szpital do Akki, a siedzibę do Margat. Po zdobyciu Akki przez Mameluków i upadku Królestwa Jerozolimskiego w 1291 roku, zakon przeniósł się razem z templariuszami na Cypr. Po likwidacji zakonu templariuszy papież przekazał większość ich dóbr i ziem joannitom, jednak nie wszystkie posiadłości udało im się przejąć. Nagły wzrost potęgi umożliwił joannitom pod wodzą bezwzględnego Fulko de Villareta zorganizowanie najazdu na wyspę Rodos, będącą formalnie pod władzą Bizancjum. Joannici zajęli i spacyfikowali całą wyspę i utworzyli na jej terenie sprawnie zarządzane państwo zakonne. Przyjęli też wówczas nazwę Kawalerów Rodyjskich. Rycerze przesiedli się z koni na okręty, a ich państwo stało się szybko potęgą morską, kontrolującą handel we wschodniej części Morza Śródziemnego; jego obecność była czynnikiem sprzyjającym wzrostowi zamożności włoskich miast-państw, zwłaszcza Wenecji.
+Zamek Joannitów na Rodos
+Członkowie zakonu pochodzili z wielu państw Europy. Podzieleni byli na osiem grup narodowościowo-terytorialnych, zwanych językami (Langues) lub mowami. Były to: Prowansja, Owernia, Francja, Anglia, Włochy, Niemcy, Aragonia i Kastylia. W fortecach bronionych przez zakon każda Langua strzegła tylko jednej części murów, co wzmacniało rywalizację i konkurencję między mowami, choć z drugiej strony osłabiało jedność zakonu.
+Kontrola zakonna handlu morskiego stała w sprzeczności z interesami Imperium Osmańskiego, które podejmowało ciągłe ataki na Rodos. Czwarta próba zdobycia wyspy, podjęta w 1522 roku przez wojska Sulejmana Wspaniałego, powiodła się. Po sześciu miesiącach oblężenia, w dniu 22 grudnia 1522 roku, wielki mistrz Filip Villiers de l’Isle Adam został zmuszony do kapitulacji. W uznaniu dla męstwa Kawalerów sułtan pozwolił im odpłynąć z bronią i sprzętem. Zwycięzcy oddali również pokonanym honory wojskowe. Miało to miejsce 1 stycznia 1523 roku.
+Przez siedem lat zakon tułał się po różnych portach Morza Śródziemnego, aż wreszcie cesarz Karol V w 1530 roku pozwolił Kawalerom Rodyjskim osiedlić się na Malcie, gdzie zbudowali port, szpital i warownię, z której ponownie nękali okręty osmańskie. Wtedy też przyjęli używaną do dziś nazwę Kawalerów Maltańskich.
+Ataki okrętów zakonnych spowodowały szybką odpowiedź Imperium w postaci inwazji, jednak długotrwałe oblężenie Malty, tzw. Wielkie Oblężenie Malty w roku 1565 przez wojska Sulejmana Wspaniałego, nie przyniosło efektu. W roku 1566 rozpoczęto budowę miasta, mającego stać się nową stolicą. Na cześć Jeana de la Valette, wielkiego mistrza w latach 1557–1568, dowodzącego wojskami zakonu podczas oblężenia, miasto to – będące stolicą współczesnej Malty – nazwano Vallettą. Na Malcie każda Langua stacjonowała w oddzielnych budynkach (Auberge). Część z nich przetrwała do dzisiaj np. Zajazd Prowansalski czy Zajazd Aragoński.
+Zakon stworzył na Malcie państwo zakonne równie świetnie zorganizowane, jak wcześniejsze na Rodos. To późniejsze przetrwało do roku 1798, kiedy to flota Napoleona, kierująca się do Egiptu, zajęła wyspę bez większego oporu, przekształcając ją w zamorską prowincję Francji.
+Większość dóbr, które kawalerowie maltańscy zmuszeni byli pozostawić na Malcie, została zajęta przez wojska francuskie. Nie cofnęły się one nawet przed splądrowaniem kościołów, co wywołało bunt miejscowej ludności, początkowo przychylnej Francuzom. Kosztowności należące do zakonu wywieziono z wyspy na statku „L’Orient”, który w czasie bitwy pod Abukirem został zatopiony wraz z całym ładunkiem.
+Na skutek wojen napoleońskich w Europie zakon utracił większość swoich komandorii.
+W roku 1800, wywołane przez Maltańczyków powstanie, wsparte przez flotę angielską i portugalską, doprowadziło do zajęcia Malty przez wojska brytyjskie. Dwa lata później między Francją i Wielką Brytanią został zawarty pokój w Amiens, którego jeden z punktów mówił o przywróceniu Malty zakonowi. Jednak rok później traktat ów został zerwany i do oddania wyspy Kawalerom Maltańskim nie doszło. Zakon ostatecznie musiał pogodzić się z jej utratą, kiedy w 1814 roku traktat paryski oficjalnie uznał brytyjskie zwierzchnictwo nad wyspą.
+Po upadku Malty wielki mistrz Ferdynand von Hompesch z konwentem udał się do austriackiego Triestu. W roku 1799, po rezygnacji von Hompescha, nowym wielkim mistrzem i protektorem Kawalerów Maltańskich został car Rosji Paweł I (wybrany 7 listopada 1798)[3]. Od roku 1774 na terenie Rzeczypospolitej Obojga Narodów działał katolicki Wielki Przeorat Polski, w 1797 roku przekształcony we Wielki Przeorat Rosji. W 1798 roku został utworzony także nowy prawosławny Wielki Przeorat Rosji. W tym czasie stolicą Zakonu stał się Sankt Petersburg. W 1801 roku car Paweł I został uduszony przez członków swojej świty, wśród których było czterech kawalerów maltańskich. Następny car, Aleksander I, syn Pawła I, sam zrzekł się dziedziczenia stanowiska wielkiego mistrza, a na namiestnika kawalerów maltańskich mianował baliwa Mikołaja Sałtykowa; Rada Zakonu, za zgodą protektora cara Aleksandra I, zwróciła się w 1802 roku do papieża Piusa VII o wyznaczenie nowego wielkiego mistrza. W roku 1803 papież zatwierdził wybór Jana Chrzciciela Tomassiego, wspieranego przez prawosławny wielki przeorat Rosji.
+Czasy współczesne
+Flaga zakonu
+Jeden z symboli zakonu – krzyż maltański
+Skrzynki pocztowe w urzędzie pocztowym Zakonu na Via Bocca di Leone w Rzymie
+Punkt humanitarnej pomocy medycznej Zakonu Maltańskiego na dworcu kolejowym, Kraków Główny
+Po upadku Napoleona zakon odzyskał część swoich dóbr na Sycylii i w okolicach Ferrary, jednak trudności finansowe zmusiły Kawalerów Maltańskich do ich porzucenia i przeniesienia swojej siedziby do Rzymu.
+W XIX wieku rozproszeni po Europie kawalerowie maltańscy zaczęli zakładać nieformalne stowarzyszenia świeckie, będące odtworzeniem dawnej struktury przeoratów. Część z nich miała charakter katolicki, część – protestancki.
+Pierwszym tego rodzaju stowarzyszeniem było Maltańskie Stowarzyszenie Reńsko-Westfalskie, założone w 1864 roku, które grupowało katolickich członków dawnego zakonu. Jego konkurencją była, popierana przez królów Prus, protestancki Baliwat Brandenburski Rycerskiego Zakonu Szpitalników św. Jana Jerozolimskiego, istniejący od 1538 roku, rozwiązany podczas sekularyzacji zakonów w Prusach w roku 1811; w rok później wznowiony jako pruskie odznaczenia nadawane za zasługi pod nazwą Order św. Jana, ponownie odnowiony jako zakon rycerski w 1852 stał się elitarnym stowarzyszeniem szlachty pruskiej. To ten zakon określa się na ogół mianem joannitów. Protestanccy joannici mają swe organizacje także w Szwecji (Johanniterorden), Holandii i Wielkiej Brytanii (British Realm of the Most Venerable Order of the Hospital of St. John of Jerusalem). Organizacje te są uznawane przez zakon katolicki.
+Na ich wzór powstawały też podobne stowarzyszenia w innych krajach: Anglii (1876), Hiszpanii (1891), Włoszech (1877), Francji, Portugalii i Polsce (1920). Stowarzyszenia te w czasie I i II wojny światowej organizowały szpitale polowe, a w czasach pokoju zajmowały się prowadzeniem szpitali zwykłych. Zakon stał się bardzo popularny w USA, gdzie przystąpiło do niego ponad 2000 kawalerów.
+Jednocześnie powstawało też wiele organizacji podszywających się pod Zakon.
+Obecnie wszystkie katolickie stowarzyszenia kawalerów maltańskich są oficjalnie częścią Zakonu, zaś protestanckie stowarzyszenie angielskie i niemieckie funkcjonują niezależnie, ale stale współpracują i wymieniają doświadczenia z zakonem katolickim.
+Zakon w swojej części katolickiej liczy dzisiaj ok. 10 tys. członków, zrzeszonych w sześciu wielkich przeoratach, 4 subprzeoratach i 45 związkach narodowych. 160 członków jest Polakami[4].
+Od 1920 jest nadawany Order Zasługi Zakonu Maltańskiego (Order Pro Merito Melitensi), który mogą otrzymywać również niekatolicy.
+Osobny artykuł: Order Pro Merito Melitensi.
+Ustrój polityczny
+Kraje, z którymi zakon utrzymuje stosunki dyplomatyczne
+Zakon stanowi suwerenny podmiot prawa międzynarodowego i jest oficjalnie uznawany przez rządy 103 krajów świata, przy głowach których ma swoich ambasadorów[5]. W 1994 roku zakon uzyskał status oficjalnego stałego obserwatora przy ONZ.
+Wyrok specjalnego Trybunału Kardynalskiego powołanego przez papieża Piusa XII w 1953 roku potwierdził suwerenność Zakonu, określając ją zarazem mianem funkcjonalnej, tj. opartej na międzynarodowej działalności Zakonu, a nie na posiadłościach terytorialnych, a także potwierdził religijny charakter Zakonu, który jako taki jest podporządkowany Kongregacji ds. Zakonów (czym potwierdził władzę Stolicy Apostolskiej w sferze religijnej). Wyrok zastrzegł prawo Zakonu, będące przywilejem jego suwerennego charakteru, do zwracania się do papieża poprzez Sekretariat Stanu i jednocześnie potwierdził wszystkie tradycyjne przywileje Zakonu[6].
+Na czele Suwerennego Rycerskiego Zakonu Szpitalników św. Jana, z Jerozolimy, z Rodos i z Malty stoi Wielki Mistrz. Jako suweren i głowa zakonu rządzi on wraz z Suwerenną Radą, skupiającą najwyższych dostojników zakonnych, którymi są:
+wielki komandor,
+wielki kanclerz,
+wielki szpitalnik,
+członkowie Wielkiej Rady.
+Z ramienia papieża funkcję patrona zakonu pełni od 2014 amerykański kardynał Raymond Burke.
+Kawalerowie maltańscy na terenie dzisiejszej Polski
+Kościół św. Jana Jerozolimskiego za murami w Poznaniu
+Na Śląsk rycerze św. Jana dotarli już w I poł. XII w. z Czech i Węgier. Monasterie św. Jana nie były jednak w Polsce tak liczne, jak w Europie Zachodniej. Pierwsze komandorie powstały na Dolnym Śląsku. Zapiski na ten temat znajdują się w „Kapitularzu Generalnym Zakonu”, wydanym w Paryżu w 1867. Czytamy tam również, że w 1169 Władysław II Przemyślida, król Czech, podarował Szpitalowi jerozolimskiemu Oleśnicę wraz z okolicznymi wsiami i posiadłościami. Do Małopolski joannici zostali sprowadzeni przez księcia Henryka Sandomierskiego, który przed 1166 nadał im dobra ziemskie Zagość z kilkoma wsiami, gdzie w 1165 powstał klasztor i szpital[7]. W 1187 otrzymali kościół św. Michała Archanioła w Poznaniu, przemianowany na kościół św. Jana Jerozolimskiego (Jana Chrzciciela), a wkrótce potem kościoły w Tyńcu nad Ślęzą, Bardzie i Strzegomiu na Śląsku, gdzie powstały komandorie.
+Na Pomorze Gdańskie joannitów sprowadził prawdopodobnie (w 1198 lub wcześniej) książę świecki Grzymisław, któremu zawdzięczały swoje powstanie domy zakonne w Starogardzie Gdańskim i Skarszewach. W 1278 dzięki nadaniu Mściwoja II powstała kolejna placówka w Lubiszewie, gdzie już od 1198 rycerze św. Jana sprawowali patronat nad kościołem św. Trójcy. W 1237 książę wielkopolski Władysław Odonic podarował im Korytowo. Po zajęciu Pomorza Gdańskiego przez Krzyżaków, joannici rozwijali swoje posiadłości jeszcze przez jakiś czas, m.in. w 1320 doprowadzili do nadania Skarszewom praw miejskich. Ale ostatecznie w 1370 odsprzedali wszystkie swoje dobra w tej dzielnicy zakonowi krzyżackiemu.
+Zamek joannitów w Łagowie
+W XII w. i później powstały dalsze komandorie, m.in. na Pomorzu Zachodnim (Stargard w 1186) i w Nowej Marchii (ziemia lubuska), np. w Słońsku i w Łagowie, a po kasacie zakonu templariuszy – w Chwarszczanach. W latach 1360-66 joannici wznieśli Zamek Drahim w Starym Drawsku.
+Od 1371 przeorem zakonu rycerskiego joannitów na Czechy, Morawy, Polskę, Austrię, Styrię i Karyntię, zaś od 1384 skarbnikiem i namiestnikiem na obszar przeoratu niemieckiego był piastowicz śląski, Ziemowit (Siemowit), trzeci syn Kazimierza I cieszyńskiego. Matką Ziemowita była Eufemia, córka Trojdena I, księcia mazowieckiego. Pieczęć Ziemowita z lat 1376-1388 przedstawia w tarczy orła w prawo, nad prawym skrzydłem orła znajduje się krzyż zakonny joannitów.
+
+W XVII wieku najsławniejszym polskim kawalerem maltańskim, był Bartłomiej Nowodworski, komandor poznański w latach 1624-1625. W 1775 roku powstał w Polsce Wielki Przeorat. Połączony został w 1797 przez cara Pawła I z nowym przeoratem rosyjskim w jedno zgromadzenie (rozwiązane formalnie w 1817, choć potwierdzone przyjęcia nowych kawalerów, w większości Polaków, trwały do 1824). Ostatnią komandorią była komandoria poznańska, przejęta przez władze pruskie po śmierci ostatniego komandora w 1832. Związek Polskich Kawalerów Maltańskich powstał w roku 1927 pod kierownictwem hr. Bogdana Hutten-Czapskiego. Po II wojnie światowej Związek funkcjonował na emigracji, a w roku 1992 został reaktywowany w Polsce.
+
+Tradycja przynależności do zakonu joannitów przetrwała do dziś w wielu rodach szlacheckich i stanowi tytuł honorowy. W Polsce do zakonu należy 160 osób[4], w tym politycy, m.in. Marcin Libicki, czy Łukasz Szumowski.
+
+Od 2004 zakon utrzymuje swoją ambasadę w Warszawie.
+
+
+Strój kawalera maltańskiego
+Strój zakonny
+Strój zakonny joannitów został ustalony przez papieża Aleksandra IV w 1259 roku i składał się z czarnego habitu oraz czarnego płaszcza z kapturem. Na habicie i płaszczu po lewej stronie naszyty był biały krzyż, który obecną formę (krzyża tzw. „maltańskiego”) przybrał w XVI w. Bracia-rycerze w czasie pokoju nosili czarny płaszcz z białym krzyżem, do walki natomiast nakładali na zbroję czerwoną tunikę z białym krzyżem łacińskim.
+
+W drugiej połowie XVII wieku stopniowo zrezygnowano ze zbroi, a w XVIII wieku strojem bojowym kawalerów maltańskich stała się szkarłatna suprawesta z białym krzyżem łacińskim.
+
+Obecnie uroczystym strojem kościelnym kawalerów maltańskich jest culla – długa, luźna, czarna szata z wyszytym na piersi dużym białym ażurowym krzyżem maltańskim, o rysunku zależnym od rangi w Zakonie, lub peleryna i mantyla w wypadku dam maltańskich. W trakcie wystąpień o charakterze dyplomatycznym lub dworskim członkowie Zakonu używają nadal szkarłatnych mundurów o kroju pochodzącym z drugiej połowy XIX w. i kapeluszy typu bicorne. Mają również prawo zakładać do nich miecz paradny i ostrogi.
+
+Insygnia zakonne
+ Osobny artykuł: Godło Zakonu Kawalerów Maltańskich.
+
+Herb Zakonu Kawalerów Maltańskich
+Herb Zakonu Kawalerów Maltańskich przedstawia na czarnym płaszczu, usianym złotymi liliami, podbitym gronostajem, zwieńczonym koroną królewską, owalną czerwoną tarczę ze srebrnym krzyżem otoczonym różańcem z pereł. Za tarczą srebrny krzyż o ośmiu rogach (order św. Jana Jerozolimskiego), po jego obu stronach po dwie flagi Zakonu.
+
+Wielki mistrz
+
+Korona wielkiego mistrza zakonu
+Insygniami wielkiego mistrza zakonu joannitów jest łańcuch orderowy Zakonu Maltańskiego z Krzyżem[8]. Dla 72. wielkiego mistrza, cara Pawła I, wykonano ponadto dwie korony książęce, tzw. korony maltańskie[9] symbolizujące władzę świecką zwierzchnika Zakonu. Jedna z tych koron jest obecnie eksponatem na Kremlu w Moskwie. Druga natomiast została w 1803 roku zwrócona Zakonowi Maltańskiemu i jest obecnie przechowywana w siedzibie głównej wielkiego mistrza w Rzymie.
+
+ Ta sekcja jest niekompletna. Jeśli możesz, rozbuduj ją.
+Klasy, kategorie i stopnie w zakonie
+Klasa pierwsza – Kawalerowie profesyjni (członkowie, którzy złożyli śluby ubóstwa, czystości i posłuszeństwa, są zakonnikami w rozumieniu prawa kanonicznego, nie są jednak zobowiązani do życia w zgromadzeniu):
+
+Kategoria I – Kawalerowie Sprawiedliwości (profesi):
+SMOM-s.svg Baliwowie Wielkiego Krzyża po Sprawiedliwości
+SMOM-s.svg Kawalerowie Wielkiego Krzyża po Sprawiedliwości
+SMOM.svg Komandorowie po Sprawiedliwości (ipso iure)
+SMOM.svg Kawalerowie po Sprawiedliwości
+Kategoria II – Profesyjni Kapelani Konwentualni:
+SMOM-f.svg Profesyjni Kapelani Konwentualni Wielkiego Krzyża po Sprawiedliwości
+SMOM.svg Profesyjni Kapelani Konwentualni
+Kategoria III – Donaci Sprawiedliwości:
+Kawalerowie Łaski Magistralnej w Posłuszeństwie
+Klasa druga – Kawalerowie i Damy w Posłuszeństwie (członkowie, którzy złożyli śluby posłuszeństwa, zobowiązując się do życia zgodnego z zasadami chrześcijaństwa, zainspirowani regułą zakonu):
+
+Kategoria I – Kawalerowie i Damy Honoru i Dewocji w Posłuszeństwie:
+SMOM-gs.svg Baliwowie Wielkiego Krzyża Honoru i Dewocji w Posłuszeństwie
+SMOM-gs.svg Kawalerowie i Damy Wielkiego Krzyża Honoru i Dewocji w Posłuszeństwie
+SMOM-gs.svg Kawalerowie i Damy Honoru i Dewocji w Posłuszeństwie
+Kategoria II – Kawalerowie i Damy Łaski i Dewocji w Posłuszeństwie
+SMOM-g.svg Kawalerowie i Damy Wielkiego Krzyża Łaski i Dewocji w Posłuszeństwie
+SMOM-g.svg Kawalerowie i Damy Łaski i Dewocji w Posłuszeństwie
+Kategoria III – Magistralni Kawalerowie i Damy w Posłuszeństwie
+SMOM-d.svg Kawalerowie i Damy Wielkiego Krzyża Łaski Magistralnej w Posłuszeństwie
+SMOM-d.svg Kawalerowie i Damy Łaski Magistralnej w Posłuszeństwie
+Klasa trzecia – członkowie, którzy nie złożyli ślubów.
+
+Kategoria I – Kawalerowie i Damy Honoru i Dewocji:
+SMOM-gcs.svg Baliwowie Wielkiego Krzyża Honoru i Dewocji
+SMOM-gcs.svg Kawalerowie i Damy Wielkiego Krzyża Honoru i Dewocji
+SMOM-gc.svg Komandorowie (ius patronatus)
+SMOM-gc.svg Kawalerowie i Damy Honoru i Dewocji
+Kategoria II – Kapelani Konwentualni ad honorem:
+SMOM-cf.svg Kapelani Konwentualni Wielkiego Krzyża (ad honorem)
+SMOM-c.svg Kapelani Konwentualni (ad honorem)
+Kategoria III – Kawalerowie i Damy Łaski i Dewocji:
+SMOM-gcff.svg Kawalerowie i Damy Wielkiego Krzyża Łaski i Dewocji ze Wstęgą (stopień zlikwidowany)
+SMOM-gcf.svg Kawalerowie i Damy Wielkiego Krzyża Łaski i Dewocji
+SMOM-gc.svg Kawalerowie i Damy Łaski i Dewocji
+Kategoria IV – Kapelani Magistralni:
+SMOM-c.svg Kapelani Magistralni
+Kategoria V – Kawalerowie i Damy Łaski Magistralnej
+SMOM-cff.svg Kawalerowie i Damy Wielkiego Krzyża Łaski Magistralnej ze Wstęgą (stopień zlikwidowany)
+SMOM-cf.svg Kawalerowie i Damy Wielkiego Krzyża Łaski Magistralnej
+SMOM-c.svg Kawalerowie i Damy Łaski Magistralnej
+Kategoria VI – Donaci Dewocji (mężczyźni i kobiety)[10]:
+SMOM-d1.svg Donaci I klasy
+SMOM-d2.svg Donaci II klasy
+SMOM-d3.svg Donaci III klasy
+ Z tym tematem związana jest kategoria: Kawalerowie maltańscy.
+Nazwy Zakonu, występujące w literaturze
+Suwerenny Rycerski Zakon Szpitalników św. Jana, z Jerozolimy, z Rodos i z Malty znany jest w historii pod różnymi nazwami, używanymi zamiennie w kolejnych okresach jego dziejów; różna jest też ich pisownia. Najstarsza z nich, jeszcze w języku łacińskim to Fratres Hospitalis St. Joannis Hierosolymitani – Bracia Szpitalni św. Jana Jerozolimskiego.
+
+Najpopularniejsze z nich, używane w literaturze przedmiotu, to:
+
+Szpitalnicy,
+Zakon Szpitalników św. Jana Jerozolimskiego,
+Zakon Szpitala św. Jana,
+Szpital,
+Joannici,
+Kawalerowie Rodyjscy,
+Rycerze Rodyjscy,
+Rycerze św. Jana,
+Kawalerowie Maltańscy,
+Rycerze Maltańscy,
+Zakon Kawalerów Maltańskich,
+Święty Zakon Jerozolimski św. Jana.
+W XVIII wieku w piśmiennictwie polskim pojawiają się również takie nazwy jak Order Jerozolimski czy Order Maltański. Niektóre pozycje używają również tak nietypowych określeń, jak Gościnnicy. Konstytucja Zakonu przewiduje także skrót od pełnej nazwy włoskiej – SMOM.
+
+W literaturze europejskiej najpopularniejsze nazwy to:
+
+The Order of Malta,
+The Order of St.John,
+The Knights of Malta,
+Chevaliers de Malte,
+l’Ordre de Malte,
+Les Hospitaliers de St-Jean de Jérusalem,
+l’Ordre de St-Jean de Jérusalem,
+der Johanniterorden,
+der Malteserorden.
+Warto zwrócić uwagę również na patrona Zakonu, gdyż pomiędzy badaczami jego dziejów co jakiś czas pojawiają się spory, czy chodzi o św. Jana Chrzciciela, czy św. Jana Jałmużnika, zwanego inaczej Jerozolimskim. Patronem Zakonu jest św. Jan Chrzciciel. „Jerozolimski” w sensie geograficznym jest sam Zakon. O św. Janie Chrzcicielu mowa jest również w modlitwach Zakonu. Przymiotnik Jerozolimski w nazwie zgromadzenia ma podkreślać związki Zakonu z Ziemią Świętą.
+
+Obecnie pełna nazwa Zakonu, jaką posługuje się Związek Polskich Kawalerów Maltańskich brzmi: Suwerenny Rycerski Zakon Szpitalników Świętego Jana, z Jerozolimy, z Rodos i z Malty.
+
+Legalne odłamy zakonu św. Jana
+Order Świętego Jana Jerozolimskiego, Wspólnota Brytyjska (anglikański i ekumeniczny);
+Zakon Szpitala św. Jana z Jerozolimy, Baliwat Brandenburski (protestancki);
+Zakon Szpitala św. Jana z Jerozolimy, Królestwa Holandii (protestancki);
+Zakon Szpitala św. Jana z Jerozolimy, Królestwa Szwecji (protestancki);
+Ortodoksyjny Zakon Szpitalników św. Jana z Cypru (prawosławny).
+Nieuznawane „zakony” św. Jana
+Oprócz właściwego (katolickiego i protestanckiego) zakonu, istnieje na świecie szereg organizacji, uważających się za prawowitych spadkobierców tradycji joannitów. Są to m.in.:
+
+Wielki Przeorat Rosyjski Suwerennego Zakonu św. Jana z Jerozolimy – miał być założony w roku 1908 przez płk. armii carskiej, Williama Lamba, i wielkiego księcia Aleksandra Michajłowicza Romanowa. W rzeczywistości wyodrębnił się z założonego dopiero na emigracji (1928) stowarzyszenia „historycznego”, zrzeszającego potomków kawalerów i komandorów rodowych, mianowanych w Rosji przez Pawła I. Czasem twierdzi się, że protektorat nad nim sprawują patriarcha Moskwy i Wszechrusi oraz carski dom Romanowów, lecz nie jest to zgodne z prawdą; zarówno poprzedni patriarcha Aleksy II, jak Wielka Księżna Maria, Głowa Rosyjskiego Domu Cesarskiego, odmówili im swego patronatu.
+Szkocko-Amerykański Zakon św. Jana – organizacja wolnomularska, powstała w XIX wieku w Wielkiej Brytanii;
+Souveräner kaiserliche-russischer Malteser-ritter-orden – założony w Danii w 1920 roku;
+Zakon św. Jana Chrzciciela – założony w roku 1923 przez Franciszka Nicholasa;
+Ordo Domus Hospitalis Sancti Joannis Hyerosolomitani – założony w Danii w 1934 roku;
+Suwerenny Zakon św. Jana Inc. – założony w roku 1953 przez Karola Pichela i hrabiego von Zepellina, z siedzibą w Shickshinny w USA;
+Regularny Zakon św. Jana z Ziemi Świętej – założony w roku 1959 we Francji;
+Suwerenny Zakon św. Jana, Rycerzy Maltańskich Ekumenicznych – założony w 1962 roku; nie jest jasne, dlaczego został objęty protektoratem wygnanego króla Jugosławii, Piotra II; jego następca, królewicz Aleksander (II.) Karadziordziewić, nie utrzymał protektoratu, co pozbawiło tę organizację prawowitości;
+Wojskowy i Szpitalniczy Zakon św. Jana z Jerozolimy, Protektoratu Bizantyjskiego – założony w roku 1967 przez Jana Nico Bloma, patriarchę kościoła Catholic Apostolic Primitive Church z siedzibą na zamku Valouze;
+Suwerenny Ortodoksyjny Zakon św. Jana z Jerozolimy – założony przez hrabiego Bobrinskoya w roku 1977;
+Autonoma Prioratet Sancti Iohannis Baptistae, Riddarbröder af St Johannes af Jerusalems Hospital – założony w roku 1993;
+Fraternité française de l’ordre de St-Jean de Jerusalem – założony we Francji;
+Sovereign Military Hospitaller Order of St. John of Jerusalem, Knights of Malta, Ecumenical and Reigning Territorial Sovereignty (OSJ) – z siedzibą w Brukseli;
+Sovereign Military and Hospitaller Order of Saint John of Jerusalem Knights of Malta United States Priory of the Order of Saint John Knights of Malta Ecumenical;
+Imperial Russian Order of Saint John of Jerusalem [Knights of Malta], Ecumenical Foundation – z siedzibą w Nassau na Wyspach Bahama;
+The Sovereign Military and Hospitaller Order of Saint John of Jerusalem, Knights of Malta – z siedzibą w Panamie;
+The Royal Sovereign Military and Hospitaller Order of Saint John of Jerusalem, Knights of Malta, Ecumenical, A Reigning Territorial Sovereignty – założone przez Jana de Mariveles, z siedzibą w nieistniejącym państwie-wyspie: Kolonia św. Jana;
+Suwerenny Szpitalniczy Zakon św. Jana – założony przez W. Kościeszę-Kołakowskiego z siedzibą w Great Neck, Long Island w USA;
+Autonomiczny Przeorat Sycylii i Aragonii Zakonu św. Jana – założony przez księcia Roberta Paternò, bratanka byłego papieskiego namiestnika Zakonu św. Jana;
+Ordo Sancti Joannis Hospitalis Hierosolymitani – założony przez arcyksiężniczkę Michaelę von Habsburg, córkę następcy tronu Austrii, arcyksięcia Ottona von Habsburga[11].
+Eksterytorialne nieruchomości Zakonu
+Pałac Maltański (Palazzo di Malta) przy Via Condotti 68 w Rzymie, będący m.in. siedzibą wielkiego mistrza;
+Kościół Santa Maria del Priorato wraz z ogrodem, budynki administracyjno-biurowe ambasady zakonu przy Republice Włoskiej i przy Stolicy Apostolskiej w Rzymie (Villa Malta) na Piazza Cavalieri di Malta;
+Fort św. Anioła (St. Angelo) w Birgu na Malcie."""
+
+x = re.findall("Rycerz", txt)
+y = re.findall("Malta", txt)
+z = re.findall("Wyspa", txt)
+
+result = re.sub("Rycerz" , "XD", txt)
+result2 = re.sub("Malta" , "XDD", result)
+result3 = re.sub("Wyspa" , "XDDD", result2)
+
+print(result, result2, result3)
+
