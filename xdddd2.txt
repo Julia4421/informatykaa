@@ -1,0 +1,58 @@
+print("1. Delta")
+print("2. Funckja kwadratowa")
+print("3. Macierz")
+
+
+operacja = int(input("Wybierz operacje: "))
+
+if (operacja == 1):
+    deltaa = float(input("Podaj a: "))
+    deltab= float(input("Podaj b: "))
+    deltac = float(input("Podaj c: "))
+    delta= ((deltab *deltab) - 4 * deltaa * deltac)
+    if delta > 0:
+        print("Delta jest wieksza od 0, delta: ", delta)
+    elif delta == 0:
+        print("Delta jest rowna 0, delta:  ", delta)
+    elif delta < 0:
+         print("Delta jest ujemna, mniejsza od 0, delta: ", delta)
+    else:
+        print("Musiales podac zle parametry")
+
+if (operacja == 2):
+    deltaa = float(input("Podaj a: "))
+    deltab= float(input("Podaj b: "))
+    deltac = float(input("Podaj c: "))
+    delta = float(input("Podaj delte: "))
+    pdelta = float(input("Podaj pierwiastek z delty: "))
+    if delta > 0:
+       x1 = (-deltab - pdelta) / 2 * deltaa
+       x2 = (-delta + pdelta) / 2 * deltaa
+       print("x1: ", x1, "x2: ", x2)
+       if (x1 > 0 and x2 > 0):
+           print("f(x) = (x+", x1, ")(x+",x2,")")
+       else: 
+           print("f(x) = (x", x1,")(x ", x2, ")")
+    elif delta == 0:
+        x0 = -deltab/ 2 * deltaa
+        print("x0= ", x0)
+        if (x0 > 0):
+           print("f(x) = (x+", x0, ")")
+        else: 
+           print("f(x) = (x+", x0, ")")
+           print("f(x) = (x+", x0, ")^2")
+    elif delta < 0:
+         print("Delta jest ujemna! Nie ma miejsca zerowego")
+    else:
+        print("Musiales podac zle parametry")
+
+if (operacja == 3):
+    a = float(input("Podaj a: "))
+    b = float(input("Podaj b: "))
+    c = float(input("Podaj c: "))
+    d = float(input("Podaj d: "))
+    macierz = (a*d)-(b*c);
+    print(macierz)
+
+else:
+    print("Podana zla liczbe! " )

@@ -1,0 +1,40 @@
+print("1. Zmiana z Celsjusza na Fahrenheita")
+print("2. Zamiana z Fahrenheita na Celsjusza")
+print("3. Zamiana z Celsjusza na Kelwiny")
+print("4. Zamiana Kelwina na Celsjusza")
+print("5. Zamiana Fahrenheita na Kelwina")
+print("6. Zamiana Kelwina na Fahrenheita")
+print("7. ???")
+
+operacja = int(input("Wybierz operacje: "))
+
+if (operacja == 1):
+    stopnie = float(input("Podaj stopnie w Celsjuszach: "))
+    temperatura = stopnie * 2 + 32
+    print("Celsjusza:",  stopnie, "Fahrenhaita: ", temperatura)
+elif (operacja == 2):
+    stopnie = float(input("Podaj stopnie Fahrenheita: "))
+    temperatura = (stopnie - 32) * 5 / 9
+    print( "Fahrenheita: ", stopnie, "Celsjusza:", temperatura)
+elif (operacja == 3):
+    stopnie = float(input("Podaj stopnie Celsjusza: "))
+    temperatura = stopnie + 273.15
+    print( "Celsjusza  ", stopnie, "Kelwina: ", temperatura)
+elif (operacja == 4):
+    stopnie = float(input("Podaj stopnie Kelwina: "))
+    temperatura = stopnie - 273.15
+    print( "Kelwina:  ", stopnie, "Celsjusza: ", temperatura)
+elif (operacja == 5):
+    stopnie = float(input("Podaj stopnie Fahrenheita: "))
+    temperatura = ((stopnie - 32) / 1.8000) + 273.15
+    print( "Fahrenheita:  ", stopnie, "Kelwina: ", temperatura)
+elif (operacja == 6):
+    stopnie = float(input("Podaj stopnie Kelwina: "))
+    temperatura = (stopnie - 273.15) * 1.8000 + 32
+    print( "Kelwina:  ", stopnie, "Fahrenheita:  ", temperatura) 
+elif (operacja == 7):
+    print("xd")
+
+else:
+    print("Podana zla liczbe! " )
+
