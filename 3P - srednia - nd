@@ -1,0 +1,56 @@
+#include <cstdlib>
+#include <iostream>
+#include <conio.h>
+using namespace std;
+int main(int argc, char *argv[])
+{
+int macierz[5][2]; // deklaracja tablicy
+// wczytywanie macierzy
+ for(int i=0;i<5;i++)
+ {
+ for(int j=0;j<2;j++)
+ {
+ 
+ cout << "podaj element macierzy a"<<"[" <<i<<"][" << j<<"]=";
+ cin>> macierz[i][j]; 
+ float liczba = macierz[i][j];
+ 
+ /*	for(int y=0;y<2;y++)
+ {
+ 	
+ 	float suma;
+ 	suma = 0;
+ 	suma = suma + liczba;
+ 	
+ }*/
+ }
+ float srednia;
+ srednia = srednia + liczba;
+ }
+ 
+ 
+ 
+/*  for(int i=0;i<5;i++)
+
+ {
+ for(int j=0;j<2;j++)
+ {
+ 	
+ 	
+ 	float srednia = i + j /2;
+ 	cout << "Srednia w wierszu " << i << " macierzy wynosi: " << srednia << endl;
+ 	
+ 	
+ 
+ 
+
+ 
+  
+ }
+ }
+
+
+*/
+
+ return EXIT_SUCCESS;
+}
